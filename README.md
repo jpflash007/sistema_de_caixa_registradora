@@ -13,49 +13,9 @@ Interface interativa: Utiliza prompt() para entrada de dados e console.log() par
 📋 Como Usar
 Execute o script em um ambiente JavaScript (navegador ou Node.js com pacote prompt-sync)
 
-Para cada item, insira:
+Para cada item, insira: A quantidade (digite 0 para finalizar), O preço unitário, O sistema mostrará: Valor de cada item, Valor total da compra, Quantidade total de produtos
 
-A quantidade (digite 0 para finalizar)
 
-O preço unitário
-
-O sistema mostrará:
-
-Valor de cada item
-
-Valor total da compra
-
-Quantidade total de produtos
-
-🖥️ Código
-javascript
-let valorcompra = 0;
-let volume = 0;
-
-while(true) {
-    let quantidade = Number(prompt("Informe a quantidade do item (0 para sair): "));
-    
-    if(quantidade == 0) {
-        break;
-    }
-    
-    let preço = Number(prompt("Informe o valor do item: "));
-    let resultado = vproduto(quantidade, preço);
-    
-    console.log("O valor é: " + resultado);
-    console.log("=================");
-    
-    valorcompra += resultado;
-    volume += quantidade;
-}
-
-console.log("==================================");
-console.log("O valor total da compra é: " + valorcompra);
-console.log("A quantidade de produto é: " + volume);
-
-function vproduto(a, b) {
-    return a * b;
-}
 📊 Exemplo de Uso
 text
 Informe a quantidade do item (0 para sair): 2
