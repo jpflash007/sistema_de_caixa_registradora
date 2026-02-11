@@ -1,4 +1,4 @@
-Sistema de Cálculo de Valor de Compra
+**`Sistema de Cálculo de Valor de Compra`** </br>
 Um script simples em JavaScript para calcular o valor total de compras baseado na quantidade e preço dos itens.
 
 🚩 Funcionalidades
@@ -13,28 +13,16 @@ Interface interativa: Utiliza prompt() para entrada de dados e console.log() par
 📋 Como Usar
 Execute o script em um ambiente JavaScript (navegador ou Node.js com pacote prompt-sync)
 
-Para cada item, insira: A quantidade (digite 0 para finalizar), O preço unitário, O sistema mostrará: Valor de cada item, Valor total da compra, Quantidade total de produtos
+Para cada item, insira:
 
+A quantidade (digite 0 para finalizar)
 
-📊 Exemplo de Uso
-text
-Informe a quantidade do item (0 para sair): 2
-Informe o valor do item: 10.50
-O valor é: 21
-=================
-Informe a quantidade do item (0 para sair): 3
-Informe o valor do item: 5.25
-O valor é: 15.75
-=================
-Informe a quantidade do item (0 para sair): 0
-==================================
-O valor total da compra é: 36.75
-A quantidade de produto é: 5
-🛠️ Tecnologias
-JavaScript Vanilla
+O preço unitário
 
-Funções básicas: prompt(), console.log()
+O sistema mostrará:
 
-Estruturas de controle: while, if
+Valor de cada item
 
-Função customizada: vproduto()
+Valor total da compra
+
+Quantidade total de produtos
